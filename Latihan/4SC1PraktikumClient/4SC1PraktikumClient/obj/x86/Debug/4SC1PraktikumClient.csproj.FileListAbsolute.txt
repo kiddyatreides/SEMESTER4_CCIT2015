@@ -1,0 +1,9 @@
+c:\users\kid\documents\visual studio 2010\Projects\4SC1PraktikumClient\4SC1PraktikumClient\bin\Debug\4SC1PraktikumClient.exe.config
+c:\users\kid\documents\visual studio 2010\Projects\4SC1PraktikumClient\4SC1PraktikumClient\bin\Debug\4SC1PraktikumClient.exe
+c:\users\kid\documents\visual studio 2010\Projects\4SC1PraktikumClient\4SC1PraktikumClient\bin\Debug\4SC1PraktikumClient.pdb
+c:\users\kid\documents\visual studio 2010\Projects\4SC1PraktikumClient\4SC1PraktikumClient\obj\x86\Debug\_4SC1PraktikumClient.Form1.resources
+c:\users\kid\documents\visual studio 2010\Projects\4SC1PraktikumClient\4SC1PraktikumClient\obj\x86\Debug\_4SC1PraktikumClient.Properties.Resources.resources
+c:\users\kid\documents\visual studio 2010\Projects\4SC1PraktikumClient\4SC1PraktikumClient\obj\x86\Debug\4SC1PraktikumClient.csproj.GenerateResource.Cache
+c:\users\kid\documents\visual studio 2010\Projects\4SC1PraktikumClient\4SC1PraktikumClient\obj\x86\Debug\4SC1PraktikumClient.exe
+c:\users\kid\documents\visual studio 2010\Projects\4SC1PraktikumClient\4SC1PraktikumClient\obj\x86\Debug\4SC1PraktikumClient.pdb
+c:\users\kid\documents\visual studio 2010\Projects\4SC1PraktikumClient\4SC1PraktikumClient\obj\x86\Debug\_4SC1PraktikumClient.FormDelete.resources

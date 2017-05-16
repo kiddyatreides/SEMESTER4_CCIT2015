@@ -1,0 +1,4 @@
+c:\users\kid\documents\visual studio 2010\Projects\4SC1PraktikumService\4SC1PraktikumService\bin\4SC1PraktikumService.dll
+c:\users\kid\documents\visual studio 2010\Projects\4SC1PraktikumService\4SC1PraktikumService\bin\4SC1PraktikumService.pdb
+c:\users\kid\documents\visual studio 2010\Projects\4SC1PraktikumService\4SC1PraktikumService\obj\Debug\4SC1PraktikumService.dll
+c:\users\kid\documents\visual studio 2010\Projects\4SC1PraktikumService\4SC1PraktikumService\obj\Debug\4SC1PraktikumService.pdb

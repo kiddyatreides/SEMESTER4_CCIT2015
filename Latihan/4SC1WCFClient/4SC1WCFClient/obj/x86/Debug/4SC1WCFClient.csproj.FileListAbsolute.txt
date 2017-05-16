@@ -1,0 +1,6 @@
+c:\users\kid\documents\visual studio 2010\Projects\4SC1WCFClient\4SC1WCFClient\bin\Debug\4SC1WCFClient.exe.config
+c:\users\kid\documents\visual studio 2010\Projects\4SC1WCFClient\4SC1WCFClient\bin\Debug\4SC1WCFClient.exe
+c:\users\kid\documents\visual studio 2010\Projects\4SC1WCFClient\4SC1WCFClient\bin\Debug\4SC1WCFClient.pdb
+c:\users\kid\documents\visual studio 2010\Projects\4SC1WCFClient\4SC1WCFClient\obj\x86\Debug\4SC1WCFClient.exe
+c:\users\kid\documents\visual studio 2010\Projects\4SC1WCFClient\4SC1WCFClient\obj\x86\Debug\4SC1WCFClient.pdb
+C:\Users\Kid\documents\visual studio 2010\Projects\4SC1WCFClient\4SC1WCFClient\obj\x86\Debug\4SC1WCFClient.csprojResolveAssemblyReference.cache

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/_4SC1WCFServer" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/_4SC1WCFServer" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfBarangInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BarangInfo" nillable="true" type="tns:BarangInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBarangInfo" nillable="true" type="tns:ArrayOfBarangInfo" />
+  <xs:complexType name="BarangInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="HargaBarang" type="xs:int" />
+      <xs:element minOccurs="0" name="IDBarang" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NamaBarang" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StokBarang" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BarangInfo" nillable="true" type="tns:BarangInfo" />
+</xs:schema>

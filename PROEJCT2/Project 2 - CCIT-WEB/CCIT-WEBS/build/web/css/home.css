@@ -1,0 +1,825 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 6, 2015, 6:58:24 PM
+    Author     : Badrus
+*/
+/*FONT
+    ======================*/
+.content-col-4 p, .announce-date p, #site-description h2
+.button-readmore, .news h2, .event-wrapper h2, .announce h2
+,.home-news-content p, .event-content p , .content-col-3, .read-more-announce {
+    font-family: Lato;
+}
+/*BODY
+    ============================================ */
+body{
+    position: relative;
+    margin: 0px 0px 8px;
+}
+#background img{
+    width: 100%;
+    position: fixed;
+    margin: 0px auto;
+    z-index:-1;
+    height:710px;
+}
+/* 
+SITE DESCRIPTION
+================================================ */
+#site-description {
+    color: #fff;
+    position: absolute;
+    cursor: default;
+    width: 495px;
+    margin: 180px 0px 0px 445px;
+    text-align:center;
+    line-height: 0.1;
+}
+#site-description h2 {
+    font-size: 80px;
+}
+#site-description p {
+    font-family:'Bebas Neue';
+    font-size: 30px;
+}
+/*BUTTON
+    ================================*/
+.button-readmore {
+    z-index:9999;
+    width:170px;
+    height:35px;
+    background-color: #000;
+	background-color: rgba(0,0,0,.7);
+    font-size:14px;
+    text-align:center;
+    position: absolute;
+    margin: 350px 0px 0px 608px;
+}
+.button-readmore a {
+    color:white;
+    text-decoration:none;
+}
+.button-content {
+    margin:7px auto;
+}
+    .button-content:hover {
+        transition: background-color ease-in-out 300ms;
+        color:#636363;
+    }
+/*COLUMN
+    ================================*/
+.column-1 {
+    background-color:white;
+    width:70%;
+    height:660px;
+    border-right: 1px solid rgb(34, 167, 240);
+}
+.column-2 {
+    width:29.9%;
+    background-color:#efefef;
+    height:660px;
+}
+.column-3 {
+    background-color:#22A7F0;
+    width:100%;
+}
+.column-4 {
+    background-color:#FFF;
+    width:100%;
+    height:500px;
+}
+.row {
+    width:100%;
+    min-height:300px;
+}
+.column-1, .column-2,.column-3,.column-4 {
+    float:left;
+    margin:0px auto;
+    z-index:0;
+    min-height:150px;
+}
+/*NEWS CONTENT & EVENT
+    ====================================*/
+.index-berita {
+    width: 165px;
+    position: absolute;
+    margin-top: 455px;
+    left: 695px;
+}
+.news {
+    margin-left:60px;
+}
+.news, .event-wrapper {
+    margin-top:90px;
+}
+.event-wrapper {
+    margin-left:30px;
+}
+    .news h2, .event-wrapper h2, .announce h2 {
+        font-size:18pt;
+        color: rgb(127, 127, 127);
+    }
+    .news hr, .event-wrapper hr, .announce hr  {
+        color:yellow;
+        width:92%;
+        float:left;
+        margin-top:-10px;
+        color: rgb(37, 116, 169);
+    }
+.announce h2 , .announce hr{
+    margin-left:50px;
+}
+.image-news {
+    height:250px;
+    width:360px;
+    margin:5px;
+}
+.image-news img{
+    max-height: 350px;
+    max-width: 360px;
+    margin: 4px auto;
+}
+.title-news {
+    font-family: Helvetica;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.71);
+    width: 370px;
+    margin-left: 0px;
+
+}
+.home-news-content p {
+    color:white;
+    text-align:justify;
+    font-size:11pt;
+    margin: -14px 4px 0px 4px;
+}
+.date-time-news {
+    margin-left: 225px;
+    position: absolute;
+    margin-top: -38px;
+    font-family: open sans;
+    font-size: 12px;
+    color: #fff;
+}
+/*EVENT
+    ====================================*/
+.event-list {
+    width: 80%;
+    height: 480px;
+    margin-left: 42px;
+    margin-top: 40px;
+}
+.event-box {
+    margin-top:20px;
+    width:100%;
+    height:100px;
+    border-left:3px #021245 solid;
+}
+.event-title h2 {
+    font-family:'Bebas Neue';
+    font-size: 20px;
+    margin: 5px 5px 5px 5px;
+}
+.date-event p {
+    margin-left: 175px;
+    margin-top:0px;
+    width: 150px;
+    background-color: #021245;
+    color: white;
+    text-align: center;
+    font-family: open sans;
+}
+.event-content p {
+    margin: 30px 5px 5px 5px;
+    font-size: 14px;
+    text-align: justify;
+    width: 312px;
+}
+.event-title h2, .date-event p, .time-event p, .event-content p {
+    position:absolute;
+}
+/*COLUMN 3
+    ==========================*/
+.content-col-3 {
+    float: left;
+    margin-top: 25px;
+    margin-left: 100px;
+    font-size: 25px;
+}
+    .content-col-3 p {
+        margin-left: 240px;
+        margin-top: -38px;
+        color: #FFF;
+    }
+.h2-back-col-3 {
+    background-color: #FFF;
+    width: 200px;
+    height: 45px;
+    margin-top: 20px;
+}
+    .h2-back-col-3 h2 {
+        margin-left: 14px;
+    }
+    .h2-back-col-3 a {
+        text-decoration:none;
+        color: #22A7F0;
+    }
+        .h2-back-col-3:hover {
+            background-color:rgba(255, 255, 255, 0.92);
+        }
+
+/*PENGUMUMAN
+    ==================*/
+.announce-content {
+    width: 285px;
+    height: 330px;
+    margin: 40px 0px 0px 39px;
+    float: left;
+}
+.announce-title {
+    font-family: "Bebas Neue";
+    font-size: 16px;
+    margin: 0px 0px 0px 5px;
+}
+.announce-date p {
+    font-size: 12px;
+    margin-left: 165px;
+    margin-top: -70px;
+    background-color: #021245;
+    width: 120px;
+    color: #FFF;
+    text-align: center;
+}
+.content-col-4 p {
+    font-size:14px;
+    text-align: justify;
+    margin: 35px 5px 5px 5px;
+}
+.read-more-announce {
+    text-align: center;
+    background-color: #021245;
+    width: 80px;
+    font-size: 14px;
+    margin-left: 200px;
+}
+    .read-more-announce a {
+        text-decoration:none;
+        color: white;
+    }
+        .read-more-announce a:hover {
+            color:#fff799;
+        }
+/*FOOTER
+    ========================= */
+.footer {
+    width:100%;
+    background-color:#0a0a0a;
+    z-index:0;
+    height:70px;
+    margin:0px auto;
+    float:left;
+}
+.content-footer {
+    color:white;
+    font-size:14px;
+    font-family:'Javanese Text';
+    text-align: center;
+    margin-top: 20px;
+}
+/*ANIMATION CLICK
+    ============================= */
+.content-news {
+    height: 400px;
+    width: 370px;
+    margin:25px -35px 0px 75px;
+    background:#22A7F0;
+    float:left;
+    cursor:pointer;
+}
+.ink {
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+}
+.ripplelink {
+    color:black;
+    display: block;
+    float: left;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    z-index: 0;
+}
+
+.content-news:hover,.event-box:hover {
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 16px 16px 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 16px 16px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 16px 16px 0;
+}
+
+.animate {
+    -webkit-animation: ripple 0.65s linear;
+    -moz-animation: ripple 0.65s linear;
+    -ms-animation: ripple 0.65s linear;
+    -o-animation: ripple 0.65s linear;
+    animation: ripple 0.65s linear;
+}
+@-webkit-keyframes 
+ripple 
+{
+     100% 
+     {
+        opacity: 0;
+        -webkit-transform: scale(2.5);
+     }
+}
+@-moz-keyframes 
+ripple 
+{  
+    100% 
+    {
+        opacity: 0;
+        -moz-transform: scale(2.5);
+    }
+}
+/*ANIMATION ON ANNOUNCEMENT*/
+.span-announce {
+    text-align: justify;
+    font-size: 18px;
+    margin: 10px;
+}
+.main,
+.container > header {
+	width: 100%;
+	margin: 40px auto;
+}
+
+.main {
+    max-width: 100%;
+    min-height: 200px;
+    margin-left:60px;
+    display:block;
+}
+.content-center {
+    float:left;
+    width: 97%;
+    height:80px;
+    font-family:Lato;
+    margin-left: 40px;
+}
+a, li {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/* Global CSS that are applied for all screen sizes */
+
+.nav-article ul {
+	max-width: 1240px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.nav-article li span {
+	display: block;
+}
+
+.nav-article a {
+	display: block;
+	color: rgba(249, 249, 249, .9);
+	text-decoration: none;
+	-webkit-transition: color .5s, background .5s, height .5s;
+	-moz-transition: color .5s, background .5s, height .5s;
+	-o-transition: color .5s, background .5s, height .5s;
+	-ms-transition: color .5s, background .5s, height .5s;
+	transition: color .5s, background .5s, height .5s;
+}
+
+    .nav-article a:hover {
+        transition: color .5s, background .5s, height .5s;
+    }
+
+.nav-article icon{
+	/* Make the font smoother for Chrome */
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+/* Remove the blue Webkit background when element is tapped */
+
+a, button {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Hover effect for the whole navigation to make the hovered item stand out */
+
+.no-touch .nav-article ul:hover a {
+	color: rgba(249, 249, 249, .5);
+}
+
+.no-touch .nav-article ul:hover a:hover {
+	color: rgba(249, 249, 249, 0.99);
+}
+
+/* Adding some background color to the different menu items */
+.nav-article li:nth-child(6n+2), .nav-article li:nth-child(6n+3), .nav-article li:nth-child(6n+4) {
+    width:200px;
+    margin-left: 30px;
+}
+.nav-article li:nth-child(6n+1) {
+	background:#22A7F0 ;
+    width:550px;
+}
+
+.nav-article li:nth-child(6n+2) {
+	background: #26A65B;
+}
+
+.nav-article li:nth-child(6n+3) {
+	background: #D24D57;
+}
+
+.nav-article li:nth-child(6n+4) {
+	background: #D35400;
+}
+
+/* For screen bigger than 800px */
+@media (min-width: 50em) {
+
+	/* Transforms the list into a horizontal navigation */
+	.nav-article li {
+		float: left;
+		width: 16.66666666666667%;
+		text-align: center;
+		-webkit-transition: border .5s;
+		-moz-transition: border .5s;
+		-o-transition: border .5s;
+		-ms-transition: border .5s;
+		transition: border .5s;
+	}
+
+	.nav-article a {
+		display: block;
+		width: auto;
+	}
+
+	/* hover, focused and active effects that add a little colored border to the different items */
+	.no-touch .nav-article li:nth-child(6n+1) a:hover,
+	.no-touch .nav-article li:nth-child(6n+1) a:active,
+	.no-touch .nav-article li:nth-child(6n+1) a:focus {
+		border-bottom: 4px solid rgb(174, 78, 1);
+	}
+
+	.no-touch .nav-article li:nth-child(6n+2) a:hover,
+	.no-touch .nav-article li:nth-child(6n+2) a:active,
+	.no-touch .nav-article li:nth-child(6n+2) a:focus {
+		border-bottom: 4px solid rgb(191, 117, 20);
+	}
+
+	.no-touch .nav-article li:nth-child(6n+3) a:hover,
+	.no-touch .nav-article li:nth-child(6n+3) a:active,
+	.no-touch .nav-article li:nth-child(6n+3) a:focus {
+		border-bottom: 4px solid rgb(12, 110, 149);
+	}
+
+	.no-touch .nav-article li:nth-child(6n+4) a:hover,
+	.no-touch .nav-article li:nth-child(6n+4) a:active,
+	.no-touch .nav-article li:nth-child(6n+4) a:focus {
+		border-bottom: 4px solid rgb(10, 75, 117);
+	}
+
+	.no-touch .nav-article li:nth-child(6n+5) a:hover,
+	.no-touch .nav-article li:nth-child(6n+5) a:active,
+	.no-touch .nav-article li:nth-child(6n+5) a:focus {
+		border-bottom: 4px solid rgb(16, 34, 44);
+	}
+
+	.no-touch .nav-article li:nth-child(6n+6) a:hover,
+	.no-touch .nav-article li:nth-child(6n+6) a:active,
+	.no-touch .nav-article li:nth-child(6n+6) a:focus {
+		border-bottom: 4px solid rgb(9, 18, 25);
+	}
+
+	/* Animating the height of the element*/
+	.nav-article a {
+		height: 9em;
+	}
+
+	.no-touch .nav-article a:hover ,
+	.nav-article a:active ,
+	.nav-article a:focus {
+		height: 10em;
+	}	
+
+	/* Making the text follow the height animation */
+	.no-touch .nav-article a:hover {
+		margin-top: 3.2em;
+		-webkit-transition: margin .5s;
+		-moz-transition: margin .5s;
+		-o-transition: margin .5s;
+		-ms-transition: margin .5s;
+		transition: margin .5s;
+	}
+
+	/* Positioning the icons and preparing for the animation*/
+	.nav-article i {
+		position: relative;
+		display: inline-block;
+		margin: 0 auto;
+		padding: 0.4em;
+		border-radius: 50%;
+		font-size: 1.8em;
+		box-shadow: 0 0 0 30px transparent;
+		background: rgba(255,255,255,0.1);
+		-webkit-transform: translate3d(0, 0, 0);
+		-moz-transform: translate3d(0, 0, 0);
+		-o-transform: translate3d(0, 0, 0);
+		-ms-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+		-webkit-transition: box-shadow .6s ease-in-out;
+		-moz-transition: box-shadow .6s ease-in-out;
+		-o-transition: box-shadow .6s ease-in-out;
+		-ms-transition: box-shadow .6s ease-in-out;
+		transition: box-shadow .6s ease-in-out;
+	}	
+	
+	/* Animate the box-shadow to create the effect */
+	.no-touch .nav-article a:hover i,
+	.no-touch .nav-article a:active i,
+	.no-touch .nav-article a:focus i {		
+		box-shadow: 0 0 0 0 rgba(255,255,255,0.2);
+		-webkit-transition: box-shadow .4s ease-in-out;
+		-moz-transition: box-shadow .4s ease-in-out;
+		-o-transition: box-shadow .4s ease-in-out;
+		-ms-transition: box-shadow .4s ease-in-out;
+		transition: box-shadow .4s ease-in-out;
+	}
+		
+}
+.nav-article {
+    cursor:pointer;
+}
+@media (min-width: 50em) and (max-width: 61.250em) {
+
+	/* Size and font adjustments to make it fit into the screen*/
+	.nav-article ul {
+		font-size: 1.2em;
+	}
+
+}
+
+/* The "tablet" and "mobile" version */
+
+@media (max-width: 49.938em) {		
+	
+	/* Instead of adding a border, we transition the background color */
+	.no-touch .nav-article ul li:nth-child(6n+1) a:hover,
+	.no-touch .nav-article ul li:nth-child(6n+1) a:active,
+	.no-touch .nav-article ul li:nth-child(6n+1) a:focus {
+		background: rgb(227, 119, 20);
+	}
+
+	.no-touch .nav-article li:nth-child(6n+2) a:hover,
+	.no-touch .nav-article li:nth-child(6n+2) a:active,
+	.no-touch .nav-article li:nth-child(6n+2) a:focus {
+		background: rgb(245, 160, 41);
+	}
+
+	.no-touch .nav-article li:nth-child(6n+3) a:hover,
+	.no-touch .nav-article li:nth-child(6n+3) a:active,
+	.no-touch .nav-article li:nth-child(6n+3) a:focus {
+		background: rgb(44, 168, 219);
+	}
+
+	.no-touch .nav-article li:nth-child(6n+4) a:hover,
+	.no-touch .nav-article li:nth-child(6n+4) a:active,
+	.no-touch .nav-article li:nth-child(6n+4) a:focus {
+		background: rgb(31, 120, 176);
+	}
+
+	.no-touch .nav-article li:nth-child(6n+5) a:hover,
+	.no-touch .nav-article li:nth-child(6n+5) a:active,
+	.no-touch .nav-article li:nth-child(6n+5) a:focus {
+		background: rgb(39, 70, 90);
+	}
+
+	.no-touch .nav-article li:nth-child(6n+6) a:hover,
+	.no-touch .nav-article li:nth-child(6n+6) a:active,
+	.no-touch .nav-article li:nth-child(6n+6) a:focus {
+		background: rgb(32, 54, 68);
+	}
+
+	.nav-article ul li {
+		-webkit-transition: background 0.5s;
+		-moz-transition: background 0.5s;
+		-o-transition: background 0.5s;
+		-ms-transition: background 0.5s;
+		transition: background 0.5s;
+	}	
+
+}
+
+/* CSS specific to the 2x3 columns version */
+@media (min-width:32.5em) and (max-width: 49.938em) {
+	
+	/* Creating the 2 column layout using floating elements once again */
+	.nav-article li {
+		display: block;
+		float: left;
+		width: 50%;
+	}
+	
+	/* Adding some padding to make the elements look nicer*/
+	.nav-article a {
+		padding: 0.8em;		
+	}
+
+	/* Displaying the icons on the left, and the text on the right side using inlin-block*/
+	.nav-article li span, 
+	.nav-article li{
+		display: inline-block;
+	}
+
+	.nav-article li  {
+		width: 50%;
+	}
+
+	.nav-article li  {
+		font-size: 1em;
+	}
+
+	/* Adaptating to the icons to animate the size and border of the rounded background in a more discreet way */
+	.nav-article li i {
+		display: inline-block;
+		padding: 8% 9%;
+		border: 4px solid transparent;
+		border-radius: 50%;
+		font-size: 1.5em;
+		background: rgba(255,255,255,0.1);
+		-webkit-transition: border .5s;
+		-moz-transition: border .5s;
+		-o-transition: border .5s;
+		-ms-transition: border .5s;
+		transition: border .5s;
+	}
+
+	/* Transition effect on the border color */
+	.no-touch .nav-article li:hover i,
+	.no-touch .nav-article li:active i,
+	.no-touch .nav-article li:focus i {
+		border: 4px solid rgba(255,255,255,0.1);
+	}
+	
+}
+
+/* Adapting the font size and width for smaller screns*/
+@media (min-width: 32.5em) and (max-width: 38.688em) {
+	
+	.nav-article li {
+		width: 50%;
+	}
+
+	.nav-article li{
+		font-size: 0.9em;
+	}
+}
+
+/* Styling the toggle menu link and hiding it */
+.nav-article .navtoogle{
+	display: none;	
+	width: 100%;
+	padding: 0.5em 0.5em 0.8em;
+	font-family: 'Lato',Calibri,Arial,sans-serif;
+	font-weight: normal;
+	text-align: left;
+	color: rgb(7, 16, 15);
+	font-size: 1.2em;
+	background: none;	
+	border: none;
+	border-bottom: 4px solid rgb(221, 221, 221);
+	cursor: pointer;
+}
+
+.navtoogle i{
+	z-index:-1;
+}
+
+.icon-menu {
+	position: relative;
+	top: 3px;
+	line-height: 0;
+	font-size: 1.6em;
+}
+
+@media (max-width: 32.438em) {
+
+    /* Unhiding the styled menu link */
+    .nav-article .navtoogle {
+        margin: 0;
+        display: block;
+    }
+
+    /* Animating the height of the navigation when the button is clicked */
+
+    /* When JavaScript is disabled, we hide the menu */
+    .no-js .nav-article ul {
+        max-height: 30em;
+        overflow: hidden;
+    }
+
+    /* When JavaScript is enabled, we hide the menu */
+    .js .nav-article ul {
+        max-height: 0em;
+        overflow: hidden;
+    }
+
+    /* Displaying the menu when the user has clicked on the button*/
+    .js .nav-article .active + ul {
+        max-height: 30em;
+        overflow: hidden;
+        -webkit-transition: max-height .4s;
+        -moz-transition: max-height .4s;
+        -o-transition: max-height .4s;
+        -ms-transition: max-height .4s;
+        transition: max-height .4s;
+    }
+
+    /* Adapting the layout of the menu for smaller screens : icon on the left and text on the right*/
+
+    .nav-article li span {
+        display: inline-block;
+        height: 100%;
+    }
+
+    .nav-article a {
+        padding: 0.5em;
+    }
+
+    .icon-article + span {
+        margin-left: 1em;
+        font-size: 0.8em;
+    }
+}
+	/* Adding a left border of 8 px with a different color for each menu item*/
+    .nav-article li:nth-child(6n+1), .nav-article li:nth-child(6n+2), .nav-article li:nth-child(6n+3), .nav-article li:nth-child(6n+4) {
+        margin-left: 20px;
+        width: 290px;
+        height: 340px;
+    }
+	.nav-article li:nth-child(6n+1) {
+		border-bottom: 8px solid rgb(174, 78, 1);
+	}
+
+	.nav-article li:nth-child(6n+2) {
+		border-bottom: 8px solid rgb(191, 117, 20);
+	}
+
+	.nav-article li:nth-child(6n+3) {
+		border-bottom: 8px solid rgb(13, 111, 150);
+	}
+
+	.nav-article li:nth-child(6n+4) {
+		border-bottom: 8px solid rgb(10, 75, 117);
+	}
+
+	/* make the nav bigger on touch screens */
+	.touch .nav-article a {
+		padding: 0.8em;
+	}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 15px; padding: 0; margin: 0;}
+
+/* Clearfix hack by Nicolas Gallagher: */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+}
+	

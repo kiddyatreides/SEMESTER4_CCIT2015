@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 6, 2015, 6:58:54 PM
+    Author     : Badrus
+*/
+/* 
+MAIN NAVIGATION
+================================================ */
+#nav-bar {
+	position: fixed;
+	z-index: 2;
+	left: 0px;
+	width: 100%;
+	padding: 0px;
+    font-size:14px;
+    height:60px;
+}
+#main-nav li {
+    background-color: #000;
+	background-color: rgba(0,0,0,0.7);
+}
+#main-nav {
+	text-align: center;
+	overflow: visible;
+    margin: 10px auto;
+}

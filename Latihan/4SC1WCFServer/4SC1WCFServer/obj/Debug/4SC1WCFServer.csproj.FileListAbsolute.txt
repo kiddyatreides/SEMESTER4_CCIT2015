@@ -1,0 +1,5 @@
+c:\users\kid\documents\visual studio 2010\Projects\4SC1WCFServer\4SC1WCFServer\bin\4SC1WCFServer.dll
+c:\users\kid\documents\visual studio 2010\Projects\4SC1WCFServer\4SC1WCFServer\bin\4SC1WCFServer.pdb
+c:\users\kid\documents\visual studio 2010\Projects\4SC1WCFServer\4SC1WCFServer\obj\Debug\4SC1WCFServer.dll
+c:\users\kid\documents\visual studio 2010\Projects\4SC1WCFServer\4SC1WCFServer\obj\Debug\4SC1WCFServer.pdb
+C:\Users\Kid\documents\visual studio 2010\Projects\4SC1WCFServer\4SC1WCFServer\obj\Debug\4SC1WCFServer.csprojResolveAssemblyReference.cache

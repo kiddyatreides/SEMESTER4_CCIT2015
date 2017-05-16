@@ -1,0 +1,5 @@
+c:\users\yosua\onedrive\documents\visual studio 2015\Projects\ExerciseCOMServer\ExerciseCOMServer\bin\Debug\ExerciseCOMServer.dll
+c:\users\yosua\onedrive\documents\visual studio 2015\Projects\ExerciseCOMServer\ExerciseCOMServer\bin\Debug\ExerciseCOMServer.pdb
+c:\users\yosua\onedrive\documents\visual studio 2015\Projects\ExerciseCOMServer\ExerciseCOMServer\obj\Debug\ExerciseCOMServer.csprojResolveAssemblyReference.cache
+c:\users\yosua\onedrive\documents\visual studio 2015\Projects\ExerciseCOMServer\ExerciseCOMServer\obj\Debug\ExerciseCOMServer.dll
+c:\users\yosua\onedrive\documents\visual studio 2015\Projects\ExerciseCOMServer\ExerciseCOMServer\obj\Debug\ExerciseCOMServer.pdb

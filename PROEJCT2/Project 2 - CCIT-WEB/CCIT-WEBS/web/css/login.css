@@ -1,0 +1,148 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 6, 2015, 6:59:32 PM
+    Author     : Badrus
+*/
+
+body {
+    overflow:hidden;
+}
+.login {
+    margin:0 auto;
+    width:1000px;
+}
+.login img {
+    float:left;
+	height: 650px;
+	width: 1000px;
+}
+.content p {
+    font-size: 45pt;
+    color: #FFF;
+    position: absolute;
+    margin-left: 330px;
+    font-family: Bebas Neue;
+}
+.login-form {
+    height: 250px;
+    width: 400px;
+    background-color: #EDEFF1;
+    border-radius: 6px;
+    position: absolute;
+    margin: 200px 0px 0px 300px;
+}.login-bro {
+    height: 300px;
+    width: 400px;
+    background-color: #EDEFF1;
+    border-radius: 6px;
+    position: absolute;
+    margin: 200px 0px 0px 300px;
+}
+.button {
+    margin-top: 38px;
+    text-align: center;
+}
+.form-group {
+    position: relative;
+    top: 10px;
+    margin-top: 20px;
+    left: 60px;
+}
+.form-control,
+.select2-search input[type="text"] {
+  height: 250px;
+  width: 810px;
+  padding: 8px 12px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.467;
+  color: #34495e;
+  border: 2px solid #bdc3c7;
+  border-radius: 6px;
+  box-shadow: none;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+          transition: border .25s linear, color .25s linear, background-color .25s linear;
+  }
+  .form-bro{
+  height: 35px;
+  width: 250px;
+  padding: 8px 12px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.467;
+  color: #34495e;
+  border: 2px solid #bdc3c7;
+  border-radius: 6px;
+  box-shadow: none;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+          transition: border .25s linear, color .25s linear, background-color .25s linear;
+  }
+.form-group.focus .form-control,
+.form-control:focus,
+.form-group.focus .select2-search input[type="text"],
+.select2-search input[type="text"]:focus {
+  border-color: #2980b9;
+  outline: 0;
+  box-shadow: none;
+  }
+/*BUTTON
+    ========================== */
+.btn-block {
+    white-space: normal;
+}
+.btn-lg, .btn-group-lg > .btn {
+    padding: 10px 19px;
+    font-size: 17px;
+    line-height: 1.471;
+    border-radius: 6px;
+}
+.btn-primary {
+    color: #FFF;
+    background-color: #2980b9;
+}
+.btn {
+    cursor:pointer;
+    text-decoration:none;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.4;
+    border: medium none;
+    border-radius: 4px;
+    transition: border 0.25s linear 0s, color 0.25s linear 0s, background-color 0.25s linear 0s;
+}
+.btn-primary:hover {
+    background-color:rgba(17, 79, 177, 0.5);
+}
+/*BACK
+    ================================ */
+.back {
+    width:45px;
+    height:45px;
+    border-radius:100px;
+    background-color:#2980b9;
+    position:absolute;
+    margin-top:588px;
+    margin-left:479px;
+}
+    .back p {
+        font-family:'Bebas Neue';
+        text-align:center;
+        margin-top:10px;
+        color:white;
+        font-size:20px;
+    }
+    .back a {
+        text-decoration:none;
+    }
+        .back:hover {
+            background-color:#2c3e50;        
+        }
+.TextBox20, .TextBox21{
+    width: 250px;
+}
+

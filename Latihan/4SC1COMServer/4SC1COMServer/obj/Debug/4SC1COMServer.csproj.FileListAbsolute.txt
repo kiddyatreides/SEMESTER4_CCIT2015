@@ -1,0 +1,4 @@
+c:\users\kid\documents\visual studio 2010\Projects\4SC1COMServer\4SC1COMServer\bin\Debug\4SC1COMServer.dll
+c:\users\kid\documents\visual studio 2010\Projects\4SC1COMServer\4SC1COMServer\bin\Debug\4SC1COMServer.pdb
+c:\users\kid\documents\visual studio 2010\Projects\4SC1COMServer\4SC1COMServer\obj\Debug\4SC1COMServer.dll
+c:\users\kid\documents\visual studio 2010\Projects\4SC1COMServer\4SC1COMServer\obj\Debug\4SC1COMServer.pdb

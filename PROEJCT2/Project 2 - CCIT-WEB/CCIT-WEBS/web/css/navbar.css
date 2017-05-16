@@ -1,0 +1,184 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 6, 2015, 6:59:52 PM
+    Author     : Badrus
+*/
+#nav-bar.fixed-nav-bar {
+	position: fixed;
+	top: 0;
+	bottom: auto;
+	left: 0;
+}
+.admin-bar.no-header #nav-bar,
+.admin-bar #nav-bar.fixed-nav-bar {
+	top: 32px;
+}
+.no-header #nav-bar {
+	top: 0;
+	bottom: auto;
+}
+
+#main-nav li {
+    height:40px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	zoom:1;
+	*display:inline;
+	position: relative;
+}
+/* main level link */
+#main-nav a {
+	font: normal 1em/1.3em Open Sans;
+	color: #fff;
+	display: block;
+	padding: 20px 0;
+	margin: -10px 13px;
+	text-decoration: none;
+}
+/* main level link :hover */
+#main-nav a:hover {
+	color: #fff799;
+}
+
+/* current link */
+#main-nav .current_page_item a,
+#main-nav .current-menu-item a {
+	color: #fff799;
+}
+/* current link :hover */
+#main-nav .current_page_item a:hover,
+#main-nav .current-menu-item a:hover {
+	color: #fff799;
+}
+
+/* sub-levels link */
+#main-nav ul a,
+#main-nav .current_page_item ul a,
+#main-nav ul .current_page_item a,
+#main-nav .current-menu-item ul a,
+#main-nav ul .current-menu-item a {
+	font: normal .85em/1.3em "Lato";
+    font-size:14px;
+	color: #636363;
+	text-transform:none;
+	padding: 10px 0;
+	margin: 0;
+	display:block;
+	width: 170px;
+	background: none;
+	border-top: 1px solid #e5e5e5;
+}
+#main-nav ul li:first-child a {
+	border-top: none;
+}
+
+/* sub-levels link :hover */
+#main-nav ul a:hover,
+#main-nav .current_page_item ul a:hover,
+#main-nav ul .current_page_item a:hover,
+#main-nav .current-menu-item ul a:hover,
+#main-nav ul .current-menu-item a:hover {
+	color: #000;
+}
+
+/* dropdown ul */
+#main-nav ul {
+	margin: 0 0 0 -100px;
+	padding: 5px 0;
+	list-style: none;
+	position: absolute;
+	background: #fff;
+	z-index: 1000;
+	display: none;
+	left: 50%;
+	border: solid 1px #ccc;
+}
+#main-nav ul:before {
+	position: absolute;
+	display: block;
+	content: ' ';
+	width: 0;
+	height: 0;
+	top: -8px;
+	left: 50%;
+	margin-left: -4px;
+	border-bottom: 8px solid #fff;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	z-index: -1;
+}
+#main-nav ul li {
+	background: none;
+	padding: 0 12px;
+	margin: 0;
+	float: none;
+}
+/* sub-levels dropdown */
+#main-nav ul ul {
+	margin: 0 0 0 97px;
+	top: -6px;
+	text-align: left;
+}
+#main-nav ul ul:before {
+	top: 15px;
+	left: -17px;
+	margin-left: 0;
+	border-right: 8px solid #ccc;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+}
+#main-nav ul ul:after {
+	display: none;
+}
+
+/* show dropdown ul */
+#main-nav li:hover > ul {
+	display: block;
+}
+
+/* home navigation */
+.home #main-nav ul {
+	bottom: 60px;
+}
+.home #main-nav ul ul {
+	bottom: auto;
+}
+.home #main-nav ul ul:before {
+	top: 15px;
+	border-right: 8px solid #ccc;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+}
+.home #main-nav ul:before {
+	top: auto;
+	bottom: -8px;
+	border-bottom: none;
+	border-top: 8px solid #fff;
+}
+.home .fixed-nav-bar #main-nav ul {
+	bottom: auto;
+	top: 60px;
+}
+.home .fixed-nav-bar #main-nav ul ul {
+	top: -6px;
+}
+.home .fixed-nav-bar #main-nav ul:before {
+	bottom: auto;
+	top: -8px;
+	border-top: none;
+	border-bottom: 8px solid #fff;
+}
+.home .fixed-nav-bar #main-nav ul ul:before {
+	top: 15px;
+	left: -17px;
+	margin-left: 0;
+	border-right: 8px solid #ccc;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+}

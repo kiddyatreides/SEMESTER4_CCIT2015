@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="addNumber">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="num1" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="num2" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addNumberResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="addNumberResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="substractNumber">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="num1" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="num2" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="substractNumberResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="substractNumberResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="multiplyNumber">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="num1" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="num2" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="multiplyNumberResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="multiplyNumberResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="divideNumber">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="num1" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="num2" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="divideNumberResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="divideNumberResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="addNumberSoapIn">
+    <wsdl:part name="parameters" element="tns:addNumber" />
+  </wsdl:message>
+  <wsdl:message name="addNumberSoapOut">
+    <wsdl:part name="parameters" element="tns:addNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="substractNumberSoapIn">
+    <wsdl:part name="parameters" element="tns:substractNumber" />
+  </wsdl:message>
+  <wsdl:message name="substractNumberSoapOut">
+    <wsdl:part name="parameters" element="tns:substractNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="multiplyNumberSoapIn">
+    <wsdl:part name="parameters" element="tns:multiplyNumber" />
+  </wsdl:message>
+  <wsdl:message name="multiplyNumberSoapOut">
+    <wsdl:part name="parameters" element="tns:multiplyNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="divideNumberSoapIn">
+    <wsdl:part name="parameters" element="tns:divideNumber" />
+  </wsdl:message>
+  <wsdl:message name="divideNumberSoapOut">
+    <wsdl:part name="parameters" element="tns:divideNumberResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CalculatorWebServiceSoap">
+    <wsdl:operation name="addNumber">
+      <wsdl:input message="tns:addNumberSoapIn" />
+      <wsdl:output message="tns:addNumberSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="substractNumber">
+      <wsdl:input message="tns:substractNumberSoapIn" />
+      <wsdl:output message="tns:substractNumberSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="multiplyNumber">
+      <wsdl:input message="tns:multiplyNumberSoapIn" />
+      <wsdl:output message="tns:multiplyNumberSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="divideNumber">
+      <wsdl:input message="tns:divideNumberSoapIn" />
+      <wsdl:output message="tns:divideNumberSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CalculatorWebServiceSoap" type="tns:CalculatorWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="addNumber">
+      <soap:operation soapAction="http://tempuri.org/addNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="substractNumber">
+      <soap:operation soapAction="http://tempuri.org/substractNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="multiplyNumber">
+      <soap:operation soapAction="http://tempuri.org/multiplyNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="divideNumber">
+      <soap:operation soapAction="http://tempuri.org/divideNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CalculatorWebServiceSoap12" type="tns:CalculatorWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="addNumber">
+      <soap12:operation soapAction="http://tempuri.org/addNumber" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="substractNumber">
+      <soap12:operation soapAction="http://tempuri.org/substractNumber" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="multiplyNumber">
+      <soap12:operation soapAction="http://tempuri.org/multiplyNumber" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="divideNumber">
+      <soap12:operation soapAction="http://tempuri.org/divideNumber" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CalculatorWebService">
+    <wsdl:port name="CalculatorWebServiceSoap" binding="tns:CalculatorWebServiceSoap">
+      <soap:address location="http://localhost:27659/CalculatorWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CalculatorWebServiceSoap12" binding="tns:CalculatorWebServiceSoap12">
+      <soap12:address location="http://localhost:27659/CalculatorWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

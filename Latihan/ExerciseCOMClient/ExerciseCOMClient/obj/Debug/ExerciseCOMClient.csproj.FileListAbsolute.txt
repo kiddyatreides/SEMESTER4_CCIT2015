@@ -1,0 +1,8 @@
+c:\users\yosua\onedrive\documents\visual studio 2015\Projects\ExerciseCOMClient\ExerciseCOMClient\bin\Debug\ExerciseCOMClient.exe.config
+c:\users\yosua\onedrive\documents\visual studio 2015\Projects\ExerciseCOMClient\ExerciseCOMClient\bin\Debug\ExerciseCOMClient.exe
+c:\users\yosua\onedrive\documents\visual studio 2015\Projects\ExerciseCOMClient\ExerciseCOMClient\bin\Debug\ExerciseCOMClient.pdb
+c:\users\yosua\onedrive\documents\visual studio 2015\Projects\ExerciseCOMClient\ExerciseCOMClient\bin\Debug\ExerciseCOMServer.dll
+c:\users\yosua\onedrive\documents\visual studio 2015\Projects\ExerciseCOMClient\ExerciseCOMClient\bin\Debug\ExerciseCOMServer.pdb
+c:\users\yosua\onedrive\documents\visual studio 2015\Projects\ExerciseCOMClient\ExerciseCOMClient\obj\Debug\ExerciseCOMClient.csprojResolveAssemblyReference.cache
+c:\users\yosua\onedrive\documents\visual studio 2015\Projects\ExerciseCOMClient\ExerciseCOMClient\obj\Debug\ExerciseCOMClient.exe
+c:\users\yosua\onedrive\documents\visual studio 2015\Projects\ExerciseCOMClient\ExerciseCOMClient\obj\Debug\ExerciseCOMClient.pdb

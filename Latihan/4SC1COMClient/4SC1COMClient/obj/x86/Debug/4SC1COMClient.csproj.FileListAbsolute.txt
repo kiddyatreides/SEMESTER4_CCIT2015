@@ -1,0 +1,7 @@
+c:\users\kid\documents\visual studio 2010\Projects\4SC1COMClient\4SC1COMClient\bin\Debug\4SC1COMClient.exe
+c:\users\kid\documents\visual studio 2010\Projects\4SC1COMClient\4SC1COMClient\bin\Debug\4SC1COMClient.pdb
+c:\users\kid\documents\visual studio 2010\Projects\4SC1COMClient\4SC1COMClient\bin\Debug\4SC1COMServer.dll
+c:\users\kid\documents\visual studio 2010\Projects\4SC1COMClient\4SC1COMClient\bin\Debug\4SC1COMServer.pdb
+c:\users\kid\documents\visual studio 2010\Projects\4SC1COMClient\4SC1COMClient\obj\x86\Debug\4SC1COMClient.csprojResolveAssemblyReference.cache
+c:\users\kid\documents\visual studio 2010\Projects\4SC1COMClient\4SC1COMClient\obj\x86\Debug\4SC1COMClient.exe
+c:\users\kid\documents\visual studio 2010\Projects\4SC1COMClient\4SC1COMClient\obj\x86\Debug\4SC1COMClient.pdb
